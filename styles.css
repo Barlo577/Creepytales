@@ -13,6 +13,10 @@
     src: url(fonts/lemon_milk/LEMONMILK-Regular.otf);
 }
 
+a {
+    text-decoration: none !important;
+}
+
 body {
     color: #fff;
     background-color: #000;
@@ -23,7 +27,6 @@ body {
 #page-content {
     margin: 0;
     padding: 0px 120px;
-
 }
 
 #header {
@@ -136,6 +139,59 @@ body {
     }
 }
 
+.contact-us-container{
+    margin:125px 452px 100px 452px;
+    text-align: start;
+    .contact-us{
+        font-size: 75px;
+        margin-bottom: 20px;
+    }
+
+    .contact-us-description{
+        font-size: 25px;
+    }
+
+    .contact-us-socials {
+        margin-top: 100px;
+            >.socials-label {
+                display: flex;
+                justify-content: center;
+                font-size: 35px;
+                margin-bottom: 82px;
+            }
+
+            >.socials-list {
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: center;
+                gap: 115px;
+
+                .social-avatar-container{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 26px;
+                    
+                    .social-avatar {
+                        cursor: pointer;
+                        width: 102px;
+                        height: 102px;
+                        border-radius: 102px;
+                        overflow: hidden;
+    
+                        >img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+
+               
+            }
+    }
+}
+
 #footer {
     margin-top: 55px;
     background-color: #232222;
@@ -190,7 +246,7 @@ body {
         margin-bottom: 53px;
     }
 
-    >.copyright{
+    >.copyright {
         font-size: 20px;
     }
 }
