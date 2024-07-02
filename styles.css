@@ -39,6 +39,7 @@ body {
     font-size: 95px;
     padding: 20px 38px;
     margin: 53px 20px;
+    user-select: none;
 }
 
 #homeBtn {
