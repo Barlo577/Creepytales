@@ -66,11 +66,35 @@ body {
     font-size: 27px;
 }
 
+.categories-container {
+    font-family: komikaaxis;
+    display: flex;
+    flex-flow:row wrap;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    padding-top: 33px;
+}
+
+.category-container {
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 17px;
+    padding: 0px 27px;
+    font-size: 30px;
+    height: 55px;
+    cursor: pointer;
+}
+
 .separator {
     display: flex;
     align-items: center;
     text-align: center;
     font-size: 47px;
+
+    &.categorie {
+        font-size: 65px;
+    }
 }
 
 .separator::before,
